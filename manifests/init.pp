@@ -75,7 +75,7 @@ class opendkim (
         'bionic', 'focal': {
           $defaults_file = undef
         }
-        'xenial': {
+        'xenial', 'buster': {
           $defaults_file = '/etc/default/opendkim'
         }
         default: {
